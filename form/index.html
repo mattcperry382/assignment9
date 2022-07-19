@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lora&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../styles/styles.css">
+        <meta name="description" content="You would never guess how fun it is to make your own slime...">
+        <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+        <link rel="manifest" href="../favicon/site.webmanifest">
+        <meta name="theme-color" content="#1e3799">
+        <meta property="og:url" content="https://myis120project.ieatgourdsforbreakfast.com/">
+        <meta property="og:title" content="Making Slime">
+        <meta property="og:description" content="You would never guess how fun it is to make your own slime...">
+        <meta property="og:image" content="https://i.pinimg.com/originals/5d/85/b0/5d85b0ec6e01923e6ccd88f37feccd60.jpg">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <meta property="og:image:alt" content="Colorful Slime">
+        <meta property="og:type" content="article">
+        <meta name="twitter:card" content="cat_slime_night">
+        <meta name="twitter:site:id" content="@solid_forge">
+        <!-- the two twitter card properties below are optional. If you don't include them, 
+            the twitter card will use the og:image -->
+        <meta name="twitter:image" content="https://downtowngreensboro.org/wp-content/uploads/2019/02/slime.jpg">
+        <meta name="twitter:image:alt" content="Cat Slime Night">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body class="form">
+        <header>
+            <div class="hamburger">
+                <svg viewbox="0 0 32 32">
+                    <use xlink:href="#hamburger-menu" />
+                </svg>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about/index.html">About</a></li>
+                    <li><a href="">Survey</a></li>
+                    <li><a href="../css-topic/index.html">CSS Topic</a></li>
+                </ul>
+                <div class="close">
+                    <svg viewbox="0 0 32 32">
+                        <use xlink:href="#close-icon" />
+                    </svg>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1>Survey</h1>
+            <div class="form-image-wrapper">
+                <img src="../images/arrows.svg" alt="arrows">
+                <form action="">
+                    <label for="name">Slime Alias:</label>
+                    <input type="text" name="name" id="name">
+                    <label for="email">Slimemail:</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" name="phone" id="phone">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" name="birthday" id="birthday">
+                    <p class="question">Which of the following are the best ingredients for slime? (Check all that apply)</p>
+                    <input type="checkbox" id="water" name="ingredients" value="water">
+                    <label for="water">Water</label>
+                    <input type="checkbox" id="borax" name="ingredients" value="borax">
+                    <label for="borax">Borax</label>
+                    <input type="checkbox" id="clearglue" name="ingredients" value="clearglue">
+                    <label for="clearglue">Elmer's Clear Glue</label>
+                    <input type="checkbox" id="glitter" name="ingredients" value="glitter">
+                    <label for="glitter">Glitter</label>
+                    <input type="checkbox" id="bakingpowder" name="ingredients" value="bakingpowder">
+                    <label for="bakingpowder">Baking powder</label>
+                    <input type="checkbox" id="foodcoloring" name="ingredients" value="foodcoloring">
+                    <label for="foodcoloring">Food coloring</label>
+                    <p class="question">How would you describe the feel of slime?</p>
+                    <input type="radio" name="feel" id="playdoh" value="playdoh">
+                    <label for="playdoh">Play-doh</label>
+                    <input type="radio" name="feel" id="stressball" value="stressball">
+                    <label for="stressball">Stress ball</label>
+                    <input type="radio" name="feel" id="jello" value="jello">
+                    <label for="jello">Jello</label>
+                    <input type="radio" name="feel" id="clay" value="clay">
+                    <label for="clay">Clay</label>
+                    <label for="haiku">Compose a haiku about slime:</label>
+                    <textarea name="haiku" id="haiku" cols="30" rows="5" placeholder="5/7/5 syllable count"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <h4><strong>Matt P and Jake B Slime-Making Slime-Industries Incorporated -- Contact us at 1-800-SLIME</strong></h4>
+            <div>
+                <img src="../images/arrows.svg" alt="arrow circle">
+            </div>
+        </footer>
+        <svg class="svg-info" xmlns="http://www.w3.org/2000/svg">
+            <symbol id="hamburger-menu">
+                <path d="M4 10h24a2 2 0 000-4H4a2 2 0 000 4zm24 4H4a2 2 0 000 4h24a2 2 0 000-4zm0 8H4a2 2 0 000 4h24a2 2 0 000-4z" />
+            </symbol>
+            <symbol id="close-icon">
+                <g>
+                    <path stroke="null" d="M28.703 25.14L19.563 16l9.14-9.14a2.513 2.513 0 000-3.563 2.513 2.513 0 00-3.563 0L16 12.437l-9.14-9.14a2.513 2.513 0 00-3.563 0 2.513 2.513 0 000 3.563l9.14 9.14-9.14 9.14a2.513 2.513 0 000 3.563 2.513 2.513 0 003.563 0l9.14-9.14 9.14 9.14a2.513 2.513 0 003.563 0c.98-.987.98-2.583 0-3.563z" />
+                </g>
+            </symbol>
+        </svg>
+        <script>
+            $(document).ready(function() {
+            
+            $(".hamburger").click(function() {
+            $("header").addClass("open");
+            });
+            
+            $(".close").click(function() {
+            $("header").removeClass("open");
+            });
+            
+            });
+        </script>
+    </body>
+</html>
